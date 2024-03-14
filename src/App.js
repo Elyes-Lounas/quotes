@@ -1,10 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import RandomQuotes from './components/randomQuotes/RandomQuotes'
+import Main from "./components/RecepeApp/Main";
+
 function App() {
   return (
     <>
-      <RandomQuotes />
+      <Main />
     </>
   );
 }
