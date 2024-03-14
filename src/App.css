@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+/** CONTACT LIST STYLING */
+
+/*body {
+  background-color: #efefef !important;
+  height: 100vh !important;
+}
+::-webkit-scrollbar {
+  display: none !important;
+}
+.wrapper {
+  margin: auto;
+  width: 350px !important;
+  border-radius: 20px;
+  overflow-y: scroll !important;
+  height: 600px;
+}
+
+.header {
+  background-color: #f6f6f6;
+}
+.left-side span {
+  font-size: 0.9rem;
+}
+
+.search-bar,
+.search-bar input {
+  background-color: #efefef;
+}
+.phone {
+  font-size: 0.8rem;
+  color: #8a8a8d;
+}
+.user-img {
+  width: 30px;
+  height: 30px;
+}
+
+.home-indecator {
+  display: inline-block;
+  height: 4px;
+  width: 110px;
+  background-color: #000;
+}
+
+.indecator {
+  bottom: 0px;
+}
+
+.input:focus {
+  width: calc(100% - 50px);
+  border: 0;
+  outline: 0;
+}*/
+
+/*body {
+  height: 100vh;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5) !important;
+}*/
+
+/** styling recepe app*/
+/*:root {
+  --main-color: rgb(255, 74, 34);
+}
+.text-main {
+  color: var(--main-color);
+}
+.bg-main {
+  background: var(--main-color) !important;
+}
+.active {
+  background-color: var(--main-color) !important;
+}
+.icon {
+  background-color: var(--main-color) !important;
+  border-radius: 0 !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 2px solid var(--main-color) !important;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card {
+  height: 250px !important;
+}
+.img {
+  height: 120px !important;
+  object-fit: cover;
+}
+
+.recepe-text:after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  left: 50%;
+  bottom: -10px;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: var(--main-color);
+}
+
+.card-title {
+  height: 20px !important ;
+}
+
+ul li {
+  border-bottom: 2px solid #ddd;
+}
+
+.home-page {
+  height: calc(100vh - 68px) !important;
+}
+
+.table {
+  background-color: #f3f2f2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 93, 0.5);
+}
+.fixed-products {
+  overflow: hidden !important;
+}
+
+@media(max-width:767px){
+  .card {
+    width: 75% !important;
+    height: 270px !important;
+  }
+}*/
+
+/** random quotes styling*/
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #606c88, #3f4c6b);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 60%;
+  background-image: linear-gradient(to right, #485563, #29323c);
+}
+.quote-icon {
+  top: 15px;
+  right: 15px;
+}
+.advice {
+  word-wrap: break-word;
+  font-family: "Madimi One", sans-serif;
+}
+.btn {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    min-width:80%;
+  }
+}
